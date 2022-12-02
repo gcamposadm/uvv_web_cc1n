@@ -1,0 +1,100 @@
+body{
+    font-family: poppinsregular;
+    color: black;     
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke; 
+    text-align: center;    
+}
+
+header
+{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    min-height: 10vh;
+}
+
+img {
+    padding-left: 20px;
+}
+
+img:hover {
+    transform: scale(1.4);
+    transition: 0.3s all;
+}
+
+.nome {
+    font-size: 28px;
+    font-weight: bold;
+    color:rgb(29, 154, 29);
+    padding-top: 10px;
+    padding-left: 80px;
+    position: absolute;
+}
+
+.nome a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nome a:hover
+{
+    font-size: 32px;
+    color: rgb(24, 122, 227);
+    transition: 0.3s all;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+nav a
+{
+    color: rgb(29, 154, 29);
+}
+
+nav a:hover
+{
+    color: rgb(24, 122, 227);
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+main {
+    background-color: white;
+    min-height: 80vh;
+}
+
+footer {
+    background-color: white;
+    min-height: 10vh;
+}
+
+.textofooter {
+    display: inline-block;  
+    font-size: 18px;  
+    color: rgb(29, 154, 29);
+    font-weight: bold;   
+    padding-right: 15px; 
+    text-decoration: underline;
+}
+
+.textofooter a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright {
+    margin-top: 15px;
+    font-size: 18px;    
+}

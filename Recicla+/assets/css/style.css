@@ -17,11 +17,11 @@ header
     min-height: 10vh;
 }
 
-img {
+.logo {
     padding-left: 20px;
 }
 
-img:hover {
+.logo:hover {
     transform: scale(1.4);
     transition: 0.3s all;
 }
@@ -108,8 +108,12 @@ main form [type="submit"]:hover
    cursor: pointer;
 }
 
-.login, .upload {
+.login {
    margin-top: 150px;     
+}
+
+.upload {
+    margin-top: 100px;
 }
 
 .descricao {
@@ -138,4 +142,45 @@ footer {
 .copyright {
     margin-top: 15px;
     font-size: 18px;    
+}
+
+.header1{
+    font-family: poppinsregular;
+    color: black;     
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white; 
+    text-align: center;
+    font-size: 25px;    
+}
+
+.par1{        
+    max-width: 850px;
+    margin: 10px auto;    
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;     
+}
+
+.par2{
+    padding: 10px auto;
+    background-color: white; 
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;    
+    margin-bottom: 15px; 
+}
+
+.imghome{
+    height: 50%;
+    width: 50%;
+}
+
+.imgobg{
+    height: 50%;
+    width: 50%;
+}
+
+#app {
+    padding-top: 10px;
 }

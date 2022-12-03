@@ -108,6 +108,14 @@ main form [type="submit"]:hover
    cursor: pointer;
 }
 
+.login, .upload {
+   margin-top: 150px;     
+}
+
+.descricao {
+    padding-bottom: 100px;    
+}
+
 footer {
     background-color: white;
     min-height: 10vh;

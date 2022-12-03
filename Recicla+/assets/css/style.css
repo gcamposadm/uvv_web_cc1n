@@ -75,6 +75,39 @@ main {
     min-height: 80vh;
 }
 
+main form
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+main form input
+{
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+main form [type="submit"]
+{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(29, 154, 29);
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+main form [type="submit"]:hover
+{
+   cursor: pointer;
+}
+
 footer {
     background-color: white;
     min-height: 10vh;
